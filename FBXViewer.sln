@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBXViewer", "FBXViewer\FBXViewer.vcxproj", "{4DB28978-B4C6-4EB4-9214-1E78C1F6A27E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freeglut", "freeglut-2.8.1\freeglut.vcxproj", "{4368D18E-7384-4CB5-AE55-4FCADCFEC9ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glew_static", "glew\build\vc10\glew_static.vcxproj", "{664E6F0D-6784-4760-9565-D54F8EB1EDF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DB28978-B4C6-4EB4-9214-1E78C1F6A27E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4DB28978-B4C6-4EB4-9214-1E78C1F6A27E}.Debug|Win32.Build.0 = Debug|Win32
+		{4DB28978-B4C6-4EB4-9214-1E78C1F6A27E}.Debug|x64.ActiveCfg = Debug|Win32
+		{4DB28978-B4C6-4EB4-9214-1E78C1F6A27E}.Release|Win32.ActiveCfg = Release|Win32
+		{4DB28978-B4C6-4EB4-9214-1E78C1F6A27E}.Release|Win32.Build.0 = Release|Win32
+		{4DB28978-B4C6-4EB4-9214-1E78C1F6A27E}.Release|x64.ActiveCfg = Release|Win32
+		{4368D18E-7384-4CB5-AE55-4FCADCFEC9ED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4368D18E-7384-4CB5-AE55-4FCADCFEC9ED}.Debug|Win32.Build.0 = Debug|Win32
+		{4368D18E-7384-4CB5-AE55-4FCADCFEC9ED}.Debug|x64.ActiveCfg = Debug|Win32
+		{4368D18E-7384-4CB5-AE55-4FCADCFEC9ED}.Release|Win32.ActiveCfg = Release|Win32
+		{4368D18E-7384-4CB5-AE55-4FCADCFEC9ED}.Release|Win32.Build.0 = Release|Win32
+		{4368D18E-7384-4CB5-AE55-4FCADCFEC9ED}.Release|x64.ActiveCfg = Release|Win32
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Debug|Win32.Build.0 = Debug|Win32
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Debug|x64.ActiveCfg = Debug|x64
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Debug|x64.Build.0 = Debug|x64
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Release|Win32.ActiveCfg = Release|Win32
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Release|Win32.Build.0 = Release|Win32
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Release|x64.ActiveCfg = Release|x64
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FV_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_DrawScene.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_DrawText.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_GetPosition.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_GlFunctions.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_SceneCache.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_SceneContext.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_SetCamera.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_targa.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_MainView.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_MainDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_DrawScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_DrawText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_GetPosition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_GlFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_SceneCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_SceneContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_SetCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_targa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_MainView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_MainDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FBXViewer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
