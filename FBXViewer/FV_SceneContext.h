@@ -74,6 +74,7 @@ namespace FbxViewer
 
 		// The input index is corresponding to the array returned from GetAnimStackNameArray.
 		bool SetCurrentAnimStack(int pIndex);
+		bool setAnimFrame(int frameIndex);
 		// Set the current camera with its name.
 		bool SetCurrentCamera(const char * pCameraName);
 		// The input index is corresponding to the array returned from GetPoseArray.

@@ -490,4 +490,10 @@ namespace FbxViewer
 		glutPopWindow();
 		glutPostRedisplay();
 	}
+
+	SceneContext* FV_GetSceneContext(void)
+	{
+		return gSceneContext;
+	}
+
 }

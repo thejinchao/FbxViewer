@@ -692,6 +692,14 @@ namespace FbxViewer
 		return true;
 	}
 
+	bool SceneContext::setAnimFrame(int frameIndex)
+	{
+		if (mStatus == UNLOADED || mStatus == MUST_BE_LOADED) return false;
+		mCurrentTime.SetFrame(frameIndex);
+		mStatus = MUST_BE_REFRESHED;
+		return true;
+	}
+
 	void SceneContext::OnTimerClick() const
 	{
 		if (mStatus == UNLOADED || mStatus == MUST_BE_LOADED) return;

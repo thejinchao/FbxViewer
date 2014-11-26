@@ -8,6 +8,9 @@
 #define _WIN32_WINNT 0x0501		//for WindowsXP
 #endif						
 
+#include <windows.h>
+#include <windowsx.h>
+
 #include <atlbase.h>
 #include <atlapp.h>
 #include <atlwin.h>
